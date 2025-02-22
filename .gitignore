@@ -1,0 +1,39 @@
+# Cache and logs
+/cache/*
+/logs/*
+!cache/.gitkeep
+!logs/.gitkeep
+
+# Database files
+*.db
+security.db
+*.sqlite
+
+# Vendor directory
+/vendor/
+
+# GeoIP database
+/geoip/*.mmdb
+
+# Environment files
+.env
+.env.local
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# PHP files
+*.log
+*.cache
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
