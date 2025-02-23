@@ -24,8 +24,8 @@
 ## Installation
 1. Clone or download the repository:
     ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/ildrm/php-security.git
+    cd php-security
     ```
 2. Install dependencies via Composer:
     ```bash
